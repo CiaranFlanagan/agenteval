@@ -1,0 +1,23 @@
+# Expectations for the demo agent: every case should answer "correct".
+name: demo
+cases:
+  - {id: case-0,  expected: correct}
+  - {id: case-1,  expected: correct}
+  - {id: case-2,  expected: correct}
+  - {id: case-3,  expected: correct}
+  - {id: case-4,  expected: correct}
+  - {id: case-5,  expected: correct}
+  - {id: case-6,  expected: correct}
+  - {id: case-7,  expected: correct}
+  - {id: case-8,  expected: correct}
+  - {id: case-9,  expected: correct}
+  - {id: case-10, expected: correct}
+  - {id: case-11, expected: correct}
+  - {id: case-12, expected: correct}
+  - {id: case-13, expected: correct}
+  - {id: case-14, expected: correct}
+  - {id: case-15, expected: correct}
+  - {id: case-16, expected: correct}
+  - {id: case-17, expected: correct}
+  - {id: case-18, expected: correct}
+  - {id: case-19, expected: correct}

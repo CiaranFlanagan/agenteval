@@ -1,0 +1,23 @@
+# An evaluation suite: inputs paired with the answer they should produce.
+#
+# Tag one run of these cases as a baseline version, change a prompt or model,
+# run them again under a new version, then:
+#
+#   agenteval compare git-explain --baseline v1 --candidate v2 --suite examples/suite.yaml
+
+name: git-explain-regression
+cases:
+  - id: blame-single-line
+    input:
+      question: "why does src/git.py:45 check for a zero SHA?"
+    expected: "uncommitted"
+
+  - id: blame-range
+    input:
+      question: "why do lines 53-57 of src/git.py parse the trailing paren?"
+    expected: "line number"
+
+  - id: unknown-file
+    input:
+      question: "why does does-not-exist.py:1 exist?"
+    expected: "not tracked"
